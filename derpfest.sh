@@ -7,7 +7,7 @@ sudo rm -rf /etc/localtime
 sudo ln -s /usr/share/zoneinfo/Asia/Dhaka /etc/localtime
 
 # Rom source repo
-repo init -u https://github.com/DerpFest-AOSP/android_manifest.git -b 16.2 --git-lfs
+repo init -u https://github.com/DerpFest-AOSP/android_manifest.git -b 16.2 --git-lfs -g default,-mips,-darwin,-notdefault
 echo "=================="
 echo "Repo init success"
 echo "=================="
