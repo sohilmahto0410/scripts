@@ -45,7 +45,7 @@ echo "Cloning Done"
 echo "=================="
 
 #Exports
-export WITH_GMS=false
+export WITH_GMS=true
 export TARGET_SUPPORTS_GOOGLE_TELEPHONY=false
 export SURFACE_FLINGER_BOOST=true
 
