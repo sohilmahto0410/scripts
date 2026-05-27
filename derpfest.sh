@@ -6,7 +6,7 @@
 # sudo ln -s /usr/share/zoneinfo/Asia/Dhaka /etc/localtime
 
 # Rom source repo
-repo init --no-repo-verify -u https://github.com/DerpFest-AOSP/android_manifest.git -b 16.2 --git-lfs -g default,-mips,-darwin,-notdefault
+repo init -u https://github.com/DerpFest-AOSP/android_manifest.git -b 16.2 --git-lfs 
 
 
 echo "=================="
