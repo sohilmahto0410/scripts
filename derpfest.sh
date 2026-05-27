@@ -44,7 +44,9 @@ git clone https://github.com/LineageOS/android_hardware_mediatek.git hardware/me
 git clone https://github.com/LineageOS/android_hardware_xiaomi.git hardware/xiaomi
 
 
-
+echo "=================="
+echo "Cloning Done"
+echo "=================="
 
 # Set up build environment
 source build/envsetup.sh
@@ -59,5 +61,8 @@ echo "============="
 make installclean
 # echo "============="
 
+echo "=================="
+echo "Building Rom"
+echo "=================="
 # Build rom
 mka derp
