@@ -23,8 +23,17 @@ echo "=================="
 echo "============================"
 
 # # Remove Project
-# rm -rf rm -rf hardware/mediatek && rm -rf device/mediatek/sepolicy_vndr && rm -rf hardware/xiaomi 
-# echo "======= Remove Done ======"
+rm -rf .repo/local_manifests
+rm -rf kernel/xiaomi
+rm -rf device/xiaomi
+rm -rf device/mediatek/sepolicy_vndr
+rm -rf hardware/xiaomi
+rm -rf vendor/xiaomi
+rm -rf vendor/mediatek
+
+
+
+echo "======= Remove Done ======"
 
 git clone https://github.com/sohilmahto0410/device_xiaomi_camellia.git device/xiaomi/camellia
 git clone https://github.com/aLpHa-Git-69/vendor_xiaomi_camellia.git vendor/xiaomi/camellia
