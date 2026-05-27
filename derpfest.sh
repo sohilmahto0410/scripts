@@ -41,12 +41,13 @@ git clone https://github.com/LineageOS/android_hardware_xiaomi.git hardware/xiao
 source build/envsetup.sh
 echo "====== Envsetup Done ======="
 
+
 # Lunch
 lunch lineage_camellia-bp4a-user
 echo "============="
 
 # # Make cleaninstall
-# make installclean
+make installclean
 # echo "============="
 
 # Build rom
