@@ -1,6 +1,5 @@
 #!/bin/bash
 
-rm -rf .repo/local_manifests/
 
 # Local TimeZone
 # sudo rm -rf /etc/localtime
