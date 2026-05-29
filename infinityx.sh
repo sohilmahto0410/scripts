@@ -54,4 +54,4 @@ echo "=================="
 # Build rom
 make installclean
 
-m bacon -j$(nproc --all)
+m bacon 
