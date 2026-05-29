@@ -1,5 +1,7 @@
 #!/bin/bash
 
+repo init -u https://github.com/LineageOS/android.git -b lineage-23.2 --git-lfs
+/opt/crave/resync.sh
 
 
 echo "======= Remove Project ========="
@@ -16,7 +18,7 @@ rm -rf vendor/mediatek
 
 echo "======= Remove Done ======"
 
-git clone --depth=1 https://github.com/sohilmahto0410/device_xiaomi_camellia.git -b pixelos device/xiaomi/camellia
+git clone --depth=1 https://github.com/sohilmahto0410/device_xiaomi_camellia.git  device/xiaomi/camellia
 git clone --depth=1 https://github.com/aLpHa-Git-69/vendor_xiaomi_camellia.git vendor/xiaomi/camellia
 git clone --depth=1 https://github.com/dm700-devs/device_xiaomi_camellia-kernel.git device/xiaomi/camellia-kernel
 git clone --depth=1 https://github.com/techyminati/android_vendor_mediatek_ims.git vendor/mediatek/ims
@@ -50,4 +52,4 @@ echo "=================="
 echo "Building Rom"
 echo "=================="
 # Build rom
-m pixelos
+brunch camellia
