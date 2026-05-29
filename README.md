@@ -17,3 +17,13 @@ crave run --no-patch -- "curl https://raw.githubusercontent.com/sohilmahto0410/s
 crave run --no-patch -- "curl https://raw.githubusercontent.com/sohilmahto0410/scripts/refs/heads/main/pixelos.sh | bash"
 ```
 
+
+## InfinityX
+
+```bash
+crave run --no-patch -- "curl https://raw.githubusercontent.com/sohilmahto0410/scripts/refs/heads/main/infinityx.sh | bash"
+```
+
+
+
+
