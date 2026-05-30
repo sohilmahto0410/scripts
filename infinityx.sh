@@ -6,13 +6,13 @@ repo init --depth=1 --no-repo-verify --git-lfs -u https://github.com/ProjectInfi
 
 echo "======= Remove Project ========="
 # # 
-rm -rf .repo/local_manifests
-rm -rf kernel/xiaomi
-rm -rf device/xiaomi
-rm -rf device/mediatek/sepolicy_vndr
-rm -rf hardware/xiaomi
-rm -rf vendor/xiaomi
-rm -rf vendor/mediatek
+# rm -rf .repo/local_manifests
+# rm -rf kernel/xiaomi
+# rm -rf device/xiaomi
+# rm -rf device/mediatek/sepolicy_vndr
+# rm -rf hardware/xiaomi
+# rm -rf vendor/xiaomi
+# rm -rf vendor/mediatek
 
 
 
