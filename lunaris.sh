@@ -40,6 +40,10 @@ git clone --depth=1 https://github.com/xiaomi-mediatek-devs/android_hardware_med
 git clone --depth=1 https://github.com/LineageOS/android_hardware_xiaomi.git hardware/xiaomi
 
 
+sed -i 's/name: "init.mt6833.usb.rc"/name: "init.mt6833.usb.rc_ignore"/' hardware/mediatek/aidl/gadget/Android.bp
+
+
+
 echo "=================="
 echo "Cloning Done"
 echo "=================="
