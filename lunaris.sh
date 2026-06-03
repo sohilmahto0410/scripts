@@ -61,7 +61,7 @@ echo "====== Envsetup Done ======="
 
 
 # Lunch
-lunch lineage_camellia-bp4a-user
+lunch lineage_camellia-bp4a-userdebug
 echo "============="
 
 # # Make cleaninstall
