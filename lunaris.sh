@@ -13,8 +13,6 @@ echo "===== Sync the repositories ========"
 
 /opt/crave/resync.sh
 
-/opt/crave/resync.sh
-
 echo "======== Syncing Done =========="
 
 
