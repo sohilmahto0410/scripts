@@ -24,6 +24,7 @@ rm -rf kernel/xiaomi
 rm -rf device/xiaomi
 rm -rf device/mediatek/sepolicy_vndr
 rm -rf hardware/xiaomi
+rm -rf hardware/mediatek
 rm -rf vendor/xiaomi
 rm -rf vendor/mediatek
 
