@@ -36,7 +36,7 @@ git clone --depth=1 https://github.com/sohilmahto0410/device_xiaomi_camellia.git
 git clone --depth=1 https://github.com/aLpHa-Git-69/vendor_xiaomi_camellia.git vendor/xiaomi/camellia
 git clone --depth=1 https://github.com/dm700-devs/device_xiaomi_camellia-kernel.git device/xiaomi/camellia-kernel
 git clone --depth=1 https://github.com/techyminati/android_vendor_mediatek_ims.git vendor/mediatek/ims
-git clone --depth=1 https://github.com/xiaomi-mt6789-devs/android_device_mediatek_sepolicy_vndr.git device/mediatek/sepolicy_vndr
+git clone --depth=1 https://github.com/LineageOS/android_device_mediatek_sepolicy_vndr.git device/mediatek/sepolicy_vndr
 git clone --depth=1 https://github.com/sohilmahto0410/android_hardware_mediatek.git hardware/mediatek
 git clone --depth=1 https://github.com/LineageOS/android_hardware_xiaomi.git hardware/xiaomi
 
