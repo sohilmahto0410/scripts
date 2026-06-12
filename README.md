@@ -11,10 +11,10 @@ crave run --no-patch -- "curl https://raw.githubusercontent.com/sohilmahto0410/s
 ```
 
 
-## PixelOs
+## LineageOS
 
 ```bash
-crave run --no-patch -- "curl https://raw.githubusercontent.com/sohilmahto0410/scripts/refs/heads/main/pixelos.sh | bash"
+crave run --no-patch -- "curl https://raw.githubusercontent.com/sohilmahto0410/scripts/refs/heads/main/lineage.sh | bash"
 ```
 
 
